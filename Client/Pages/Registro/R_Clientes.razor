@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        @*Nombres*@
+       
         <div class="mb-3">
             <label class="form-label" for="Nombre">Nombre:</label>
             <InputText @bind-Value="Cliente.Nombre" placeholder="Nombre del cliente" class="form-control" />
@@ -31,14 +31,14 @@
 
         <div class="row">
 
-            @*Teléfono*@
+            
             <div class="col-md-6 mb-3">
                 <label class="form-label" for="Telefono">Tel&eacute;fono:</label>
                 <InputText @bind-Value="Cliente.Telefono" placeholder="Número Telefónico" class="form-control" />
                 <ValidationMessage For="@(() => Cliente.Telefono)" />
             </div>
 
-            @*Celular*@
+           
             <div class="col-md-6 mb-3">
                 <label class="form-label" for="Celular">Celular:</label>
                 <InputText @bind-Value="Cliente.Celular" placeholder="Número del Celular" class="form-control" />
@@ -47,21 +47,20 @@
 
         </div>
 
-        @*Rnc*@
+      
         <div class="mb-3">
             <label class="form-label" for="RNC">RNC:</label>
             <InputText @bind-Value="Cliente.Rnc" placeholder="Número de Rnc" class="form-control" />
             <ValidationMessage For="@(() => Cliente.Rnc)" />
         </div>
 
-        @*Email*@
+      
         <div class="mb-3">
             <label class="form-label" for="Email">Email:</label>
             <InputText @bind-Value="Cliente.Gmail" placeholder="Dirreción Email" class="form-control" />
             <ValidationMessage For="@(() => Cliente.Gmail)" />
         </div>
 
-        @*Direccion*@
         <div class="mb-3">
             <label class="form-label" for="Direccion">Direcci&oacute;n</label>
             <InputTextArea @bind-Value="Cliente.Direccion" placeholder="Dirreción del Cliente" class="form-control" />

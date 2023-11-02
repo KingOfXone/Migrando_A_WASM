@@ -31,7 +31,7 @@ namespace WASM_Clientes.Server.Migrations
                         .HasMaxLength(90)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Gmail")
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

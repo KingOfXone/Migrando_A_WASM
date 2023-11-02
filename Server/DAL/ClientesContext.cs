@@ -8,7 +8,6 @@ namespace WASM_Clientes.Server.DAL
         public ClientesContext(DbContextOptions<ClientesContext> options) : base(options)
         {
         }
-
         public DbSet<Clientes> Clientes { get; set; }
     }
 }

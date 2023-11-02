@@ -29,7 +29,7 @@ namespace WASM_Clientes.Shared
         public string? Rnc { get; set; }
 
         [Required(ErrorMessage = "El campo Email es obligatorio.")]
-        public string? Gmail { get; set; }
+        public string? Email { get; set; }
 
         [Required(ErrorMessage = "El campo Direccion es obligatorio.")]
         [StringLength(90, ErrorMessage = "El campo Dirección no debe de tener más de 90 caracteres.")]
